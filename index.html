@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aradhya Ji 😊</h1>
+        <p>I have a special surprise for you! 🎁</p>
+        <button id="quizBtn">Click here to open your quiz</button>
+
+        <div id="quizContainer" class="hidden">
+            <p>Answer these questions to open your gift:</p>
+
+            <!-- Question 1 -->
+            <p>Q1. When was the first time we talked to each other on WhatsApp?</p>
+            <input type="text" id="answer1" placeholder="DD/MM/YYYY">
+
+            <!-- Question 2 -->
+            <p>Q2. On which day I first asked you - "2 Saal ka samay dedo bas"?</p> 
+            <input type="text" id="answer2" placeholder="DD/MM/YYYY">
+
+            <button id="submitBtn" disabled>Submit</button>
+        </div>
+
+        <div id="videoContainer" class="hidden">
+            <video controls>
+                <source src="your-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p id="personalMessage">I know yeh video bohot normal hai, but 20th August ko jaise soche the vaise video jarur dikhaunga.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
